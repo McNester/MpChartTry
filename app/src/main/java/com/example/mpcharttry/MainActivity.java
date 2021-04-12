@@ -18,8 +18,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),BarChartActivity.class));
             }
         });
-
-
+        findViewById(R.id.btnPie).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), PieChartActivity.class));
+            }
+        });
 
     }
 }
