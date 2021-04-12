@@ -41,7 +41,7 @@ public class BarChartActivity extends AppCompatActivity {
         barChart.setData(barData);
         barChart.getDescription().setText("Bar Chart Example");
         barChart.getDescription().setTextColor(Color.WHITE);
-        barChart.animateY(1500);
+        barChart.animateY(2000);
 
 
         YAxis yAxisRight = barChart.getAxisRight();
