@@ -20,11 +20,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        findViewById(R.id.btnPie).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),PieChartActivity.class));
-            }
-        });
+
     }
 }
